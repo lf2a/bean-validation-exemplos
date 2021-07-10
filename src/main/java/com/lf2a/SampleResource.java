@@ -27,7 +27,7 @@ public class SampleResource {
 	}
 
 	@GET
-	@Path("/test2")
+	@Path("/ip")
 	@Produces(MediaType.TEXT_PLAIN)
 	public Response message2(@IpAddress @QueryParam("ip") String ipAddress) {
 		// 192.168.0.1
